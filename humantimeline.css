@@ -1,0 +1,577 @@
+.container {
+}
+
+
+html {
+    scroll-behavior: smooth;
+    background-color: white;
+  }
+
+* {
+margin:0;
+padding:0;
+}
+
+/*** Nav bar ****/ 
+#sidebar {
+position: fixed;
+overflow-x:scroll;
+max-height: 100%;
+width:50px;
+background-color:gray ;
+top:0px;
+}
+
+#sidebar:hover{
+    transition: 1s;
+    width:200px;
+
+}
+
+.topic img {
+    width: 100%;
+} 
+
+
+
+.topic p {
+    position: relative;
+    width: 100%;
+    color:whitesmoke;
+    font-size: 18px;
+    bottom: 60px;
+    line-height:0;
+    opacity:0.8;
+    
+}
+
+.topic p:hover {
+opacity:0;
+    transition: 2s;
+   
+}
+
+
+
+.topic a {
+    text-decoration: none;
+    
+}
+
+
+
+
+/**** Link2 ******/
+#link2 {
+    width:50%;
+ margin:50px 0px 50px 0px;
+}
+
+.link2 img {
+width: 100%;
+}
+
+.smallwords {
+    font-size: 12px;
+    margin:25px auto;
+  }
+  
+
+
+/***Human&fire****/
+.coverpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 100px;
+line-height:2;
+height:200px;
+width: 100%;
+}
+
+.fire {
+margin-right: 18rem;
+  }
+
+  .money {
+    margin-left: 10rem;
+    }
+    
+    .coverpage h5 {
+      color: red;
+      font-size: large;
+    }
+    
+    .coverpage p {
+      font-size: small;
+    }
+
+/*****biology&science*****/
+
+  
+  .coverpage2 {
+      margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    line-height:0;
+  
+    
+  }
+  
+  .coverpagewords2 {
+    margin-left:5rem ;
+  }
+  
+  .smallwords {
+    font-size: small;
+  }
+  
+  .redwords {
+    color: red;
+  }
+
+
+  /*** kings ***/
+ 
+  
+  .coverpagewords4 {
+    margin-left:5rem ;
+  }
+/****words decoration in Link2****/
+
+
+#timeline {
+    font-size: 25px;
+    line-height:1.5;
+}
+
+h2{
+    text-align:center;
+  }
+  
+  h3 {
+    line-height:1.5;
+  }
+  
+
+/**table & story design**/
+
+table {
+    width:100%;
+  
+  }
+  
+  tr {
+      padding: 10px;
+  }
+  
+  th {
+    text-align:center;
+   
+    padding: 10px;
+  
+  
+  }
+  
+  td {
+    padding-bottom:10px;  
+    padding-top: 10px;
+  padding-left: 10px;
+  }
+  
+  .population {
+    color: red;
+    font-style: italic;
+    font-weight: 900;
+  }
+  
+  .story {
+    line-height:1.8;
+    text-align:left;
+    font-size: medium;
+    height:300px;
+    overflow-x: auto;
+    margin: 10px auto;  
+    width:100%;
+  } 
+
+  h2{
+    text-align:center;
+  }
+  
+  h3 {
+    margin-top: 150px;
+  }
+
+      /** Image, table  & words in link2**/ 
+      .image-in-words {
+        width: 500px;
+        }
+
+.link2-photo {
+    text-align: left;
+      font-size: 12px;
+      font-style: italic;
+      height: 200px;
+      overflow: auto;
+      border-radius: 10px;
+}
+
+.link2-photo:hover {
+  height: 560px;
+  transition:5s;
+  position: absolute;
+  width:50%;
+  background-color: whitesmoke;
+}
+
+
+.cosmo-images {
+    border-top: 15px solid rgba(147, 116, 231, 0.2);
+    border-bottom: 15px solid rgba(147, 116, 231, 0.2);
+}
+
+.human-image {
+    border-top: 15px solid rgba(53, 212, 180, 0.2);
+    border-bottom: 15px solid rgba(53, 212, 180, 0.2);
+} 
+
+.hunter-images {
+    border-top: 15px solid rgba(171, 183, 183, 0.5);
+    border-bottom: 15px solid rgba(171, 183, 183, 0.5);
+}
+
+.farm-images {
+    border-top: 15px solid rgba(78, 198, 84, 0.2);
+    border-bottom: 15px solid rgba(78, 198, 84, 0.2);
+}
+
+.img-empires {
+      border-top: 15px solid rgba(242, 38, 19, 0.8);
+      border-bottom: 15px solid rgba(242, 38, 19, 0.8);
+  }
+.scientific-images {
+    border-top: 15px solid rgba(255,215,0,0.3);
+    border-bottom: 15px solid rgba(255,215,0,0.3);
+}  
+
+.industrial-images {
+    border-top: 15px solid gray;
+    border-bottom: 15px solid gray;
+  }
+
+.technological-images {
+    border-top:15px solid rgba(30, 139, 195, 0.2);
+    border-bottom:15px solid rgba(30, 139, 195, 0.2);
+  }
+
+.sustainability-images {
+    border-top: 15px solid rgba(242, 38, 19, 1);
+    border-bottom: 15px solid rgba(242, 38, 19,1);
+  }
+
+.timeline-table {
+    height: 100px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.timeline-table:hover {
+    height: 300px;
+    transition:3s;
+  }
+
+  .cosmo-table {
+    border-top: 15px solid rgba(147, 116, 231, 0.2);
+    border-bottom: 15px solid rgba(147, 116, 231, 0.2);
+  }
+
+  .human-table {
+    border-top: 15px solid rgba(53, 212, 180, 0.2);
+    border-bottom: 15px solid rgba(53, 212, 180, 0.2);
+  }
+
+  .hunter-table {
+    border-top: 15px solid rgba(171, 183, 183, 0.5);
+    border-bottom: 15px solid rgba(171, 183, 183, 0.5);
+  }
+
+  .farm-table {
+    border-top: 15px solid rgba(78, 198, 84, 0.2);
+    border-bottom: 15px solid rgba(78, 198, 84, 0.2);
+  }
+
+  .table-empire {
+    border-top: 15px solid rgba(242, 38, 19, 0.8);
+    border-bottom: 15px solid rgba(242, 38, 19, 0.8);
+  }
+
+  .scientific-table {
+    border-top: 15px solid rgba(255,215,0,0.3);
+    border-bottom: 15px solid rgba(255,215,0,0.3);
+  }
+
+  .industrial-table {
+    border-top: 15px solid gray;
+    border-bottom: 15px solid gray;
+  } 
+
+  .technological-table {
+    border-top:15px solid rgba(30, 139, 195, 0.2);
+    border-bottom:15px solid rgba(30, 139, 195, 0.2);
+  }
+
+  .sustainability-table {
+    border-top: 15px solid rgba(242, 38, 19, 1);
+    border-bottom: 15px solid rgba(242, 38, 19,1);
+  }
+
+
+  .flex-name {
+    margin: 35px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border:2px solid gray ;
+    padding-top: 5px ;
+    background-color: whitesmoke;
+  }
+  
+  .grid-project {
+  display: grid;
+  font-size: 9px;
+  grid-template-columns:repeat(6, 1fr);
+  grid-gap: 1rem;
+  padding:10px;
+  }
+  
+  .grid-project img { 
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  
+  }
+
+  .grid-project p {
+    padding-top: 10px;
+  }
+
+/**Ipad *****/
+@media (max-width:815px) {
+
+  #sidebar:hover{
+    transition: 1s;
+    width:100px;
+    font-size: 2px;
+}
+
+
+
+.topic p {
+  font-size: 10px;
+
+}
+
+  #link2 {
+    width: 70%;
+  
+  }
+
+  #timeline {
+      font-size: 24px;
+      line-height:1.5;
+  }
+
+  .grid-project {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-gap: 3rem;
+    }
+ 
+    .coverpage{
+      height: 100px;
+    }
+  
+    .coverpage h5 {
+      color: red;
+      font-size: x-small;
+    }
+    
+    .coverpage p {
+      font-size: 8px;
+    }
+  
+  .fire {
+      margin-right: 5rem;
+        }
+      
+  .money {
+      margin-left: 6rem;
+      }
+
+
+}
+
+
+/*****Mobile*******/
+@media (max-width: 667px) {
+   
+  
+    #sidebar {
+        position: fixed;
+        display: flex;
+        overflow-y:auto;
+        min-width:100%;
+        flex-direction:row;
+      border:none;
+    }
+
+  
+
+    .nav-link {
+        
+        background-color: gray;
+    }  
+
+    .topic img {
+        width:95px;
+        height:100px;
+        border-right:1px solid gray;
+     
+    }
+    
+    
+    .topic a {
+        text-decoration: none;
+    }
+    
+    .topic p {
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    color: rgb(255,255,255,0.4);
+    display: block;
+    bottom: 25px;
+    }
+
+    #link2 {
+margin-top: 8rem;
+width:85%;
+}
+
+h4 {
+  font-size:xx-small ;
+  line-height: 2;
+}
+
+h3 {
+font-size: small;
+line-height: 3;
+margin-top: 3rem;
+}
+
+
+
+.story {
+  line-height:1.2;
+  text-align:left;
+  font-size: small;
+  height:300px;
+  overflow-x: auto;
+  margin: 10px auto;  
+  width:100%;
+} 
+
+.story p {
+margin:1rem auto;
+}
+
+
+.smallwords {
+    font-size: 8px;
+    }   
+
+.coverpagewords1 {
+    margin-left:0rem ;
+  }
+.coverpagewords2 {
+    margin-left:0rem ;
+  }
+.coverpagewords3 {
+    margin-right:0rem ;
+  }
+.coverpagewords4 {
+    margin-left:3rem ;
+  }
+
+  .coverpage{
+    height: 100px;
+  }
+
+  .coverpage h5 {
+    color: red;
+    font-size: x-small;
+  }
+  
+  .coverpage p {
+    font-size: 8px;
+  }
+
+.fire {
+    margin-right: 5rem;
+      }
+    
+.money {
+    margin-left: 6rem;
+    }
+
+#timeline {
+
+        font-size: 13px;
+        line-height:2;
+    }
+
+    .grid-project {
+      display: grid;
+      grid-template-columns:repeat(2, 1fr);
+      grid-gap: 3rem;
+      }
+
+      .link2-photo:hover {
+        height: 285px;
+        transition:3s;
+        position: absolute;
+        width:95%;
+        background-color: whitesmoke;
+        left:10px;
+        
+      }
+
+
+}
+
+@media (max-width:320px) {
+  #link2 {
+    width:95%;
+  }
+  #timeline {
+      font-size: 10px;
+      line-height: 2;
+  }
+  .fire {
+    margin-right: 3rem;
+}
+
+.money {
+  margin-left: 3rem;
+}
+
+.coverpage
+
+}
+
+
+
+
