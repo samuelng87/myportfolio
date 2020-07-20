@@ -85,6 +85,11 @@ border-radius:3px;
   margin-bottom: 50px;
 }
 
+.project-grid img {
+    width: 285px;
+    height:20rem;
+}
+
 @media (max-width:1200px) {
 
     .project-grid {
@@ -142,6 +147,7 @@ border-radius:3px;
 .project-grid {
         display: flex;
         padding-left: 25px;
+        object-fit: cover;
      }
 
 .project-grid a {  
@@ -156,6 +162,10 @@ margin:auto 10px;
 }
 }
 
+.project-grid img {
+    width: 285px;
+    height:20rem;
+}
 
 iframe {
     height: 20rem;
