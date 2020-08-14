@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.main-section {
+
+}
+
+.main-section img {
+    width:100%;
+    object-fit: contain;
+    height: auto;
+}
+
+.picture-smallwords {
+    font-size: small;
+    padding-left:10px;
+    font-style: italic;
+}
+
+.slide {
+    background-color: lightgrey;
+    object-fit: cover;
+    height:400px;
+    overflow-y: auto;
+    border-top: 10px solid lightgrey;
+    border-bottom: 10px solid lightgrey;
+    border-radius: 10px;
+}
+
+.story-table-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem 0rem;
+}
+
+.story p {
+    line-height: 1.5;
+    margin:0.5rem 0rem;
+}
+
+.story {
+    border-top: 10px solid lightgrey;
+    border-bottom: 10px solid lightgrey;
+    border-radius: 10px;
+    background-color:lightgrey;
+    width: 50%;
+    padding:1rem 1rem ;
+    margin-right:2%;
+    height:300px;
+    overflow-x: auto;
+}
+
+.smallwords {
+    font-size: small;
+  }
+  
+  .redwords {
+    color: red;
+  }
+
+table {
+    width: 100%;
+    text-align: center;
+    background-color:lightgrey;
+}
+
+.table {
+height: 300px;
+background-color:lightgrey;
+border-radius: 10px;
+border-top: 10px solid lightgrey;
+border-bottom: 10px solid lightgrey;
+width:50%;
+overflow-x: auto;
+padding:1rem 1rem ;
+  }
+  
+  tr {
+  }
+  
+  th {
+    text-align:center;
+
+  }
+  
+  td {
+padding:20px 3px;
+  }
+
+
+
+html {
+    scroll-behavior: smooth;
+
+  }
+
+
+.size-adjust {
+    width: 70%;
+
+}
+
+  
+.fire {
+    margin-right:70%;
+}
+
+.main-topic-header {
+font-size: 2rem;
+padding: 2rem 0px;
+text-align: center;
+line-height:1.6;
+}
+
+.coverpage h5 {
+    font-size: 120%;
+    color:red;
+}
+
+.coverpage p {
+font-size:90%;
+}
+
+
+.coverpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height:150px;
+    padding-bottom: 1rem;
+    line-height:1.7;
+}
+
+
+.population {
+    color: red;
+}
+
+
+.acticle1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0.8),
+        rgba(245, 245, 233,0.8)
+      ),
+  url(humanface-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.white-title {
+    font-size: 2rem;
+padding: 2rem 0px;
+text-align: center;
+line-height:1.6;
+color:white;
+}
+
+.acticle2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0),
+        rgba(41, 136, 206, 0)
+      ),
+      
+  url(nasa-cosmo-img.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.acticle3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ top: 0;
+   left: 0;
+   width:100%;
+   height:100%;
+   z-index: -1;
+   background-image: linear-gradient(
+       115deg,
+       rgba(41, 241, 195, 0.8),
+       rgba(41, 136, 206, 0.2)
+     ),
+url(dna-pic\ .jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.words-design {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-bottom: 1rem;
+    line-height:1.5;
+}
+
+.words-design h5 {
+    font-size: 1.2rem;
+}
+
+
+.acticle4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgb(220,220,220,0.8),
+        rgba(46, 48, 49, 0.8)
+      ),
+      
+  url(hunter-pic.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.acticle5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(46, 148, 155, 0.2),
+        rgba(41, 136, 206, 0.3)
+      ),
+      
+  url(agricultural-pic.jpeg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0.2),
+        rgba(41, 136, 206, 0.5)
+      ),
+      
+  url(empire-pic.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0.5),
+        rgba(156, 114, 22, 0.7)
+      ),
+      
+  url(scientific-pic.jpeg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0.5),
+        rgba(142, 147, 151, 0.5)
+      ),
+      
+  url(industrial-pic.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0.2),
+        rgba(41, 136, 206, 0.5)
+      ),
+      
+  url(technological-pic.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0),
+        rgba(41, 136, 206, 0)
+      ),
+      
+  url(substanability-pic.webp);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0),
+        rgba(41, 136, 206, 0)
+      ),
+      
+  url(nasa-cosmo-img.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 50%;
+}
+
+.profile {
+
+    line-height: 1.5;
+    margin:10rem 0rem;
+    padding: 1rem 0rem;
+    font-size: x-small;
+    color: white;
+    text-align: center;
+    width:90%;
+    height:70%;
+    border-radius:10px;
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+background-color: rgba(114, 122, 122, 0.5);
+}
+
+
+footer {
+    font-size: small;
+    bottom:0;
+    right: 0;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:500px) {
+
+
+    .white-title {
+        font-size: 20px;
+    }
+
+    .slide {
+        background-color: lightgrey;
+        object-fit: cover;
+        height:200px;
+        overflow-y: auto;
+        border-top: 10px solid lightgrey;
+        border-bottom: 10px solid lightgrey;
+        border-radius: 10px;
+    }
+
+
+    .size-adjust {
+        width: 75%;
+    
+    }
+
+    .main-topic-header {
+        font-size: 1.5rem;
+        text-align: center;
+        }
+
+
+        .story-table-flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding:1rem 0.7rem;
+
+        }
+        
+        .story {
+            width: 100%;
+        }
+
+
+
+        .fire {
+            margin-right:50%;
+        }
+     
+        .coverpage {      
+            height:80px;
+            line-height:1rem;
+        }
+
+        
+        .coverpage h5 {
+            font-size: 100%;
+            color:red;
+        }
+        
+        .coverpage p {
+        font-size:70%;
+        line-height: 2.5;
+        }
+
+        .words-design {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            text-align: center;
+            font-size: xx-small;
+            padding-bottom: 1rem;
+            line-height: 1.5;
+        } 
+
+        .words-design h5 {
+            font-size:small;
+        }
+
+        .story p {
+            line-height: 1.1;
+            margin: 1rem 0rem;
+            font-size: large;
+        }
+        .story {
+            width: 100%;
+            margin-right:0px;
+            height:300px;
+            overflow-x: auto;
+            padding:10px;
+        }
+
+        .table {
+            padding:10px;
+            margin-top: 10px;
+            width:100%;
+            height:150px;
+            overflow-x: auto;
+          }
+          
+          tr {
+          
+              padding: 10px;
+          }
+          
+          th {
+            text-align:center;
+           
+            padding: 10px;
+          
+          
+          }
+          
+          td {
+         
+          }
+        
+
+          .profile {
+            grid-gap: 2rem;
+            line-height: 1.5;
+            margin:5rem 0rem;
+            padding: 1rem 0rem;
+            font-size: x-small;
+            color: white;
+            text-align: center;
+            width:90%;
+            height:70%;
+            border-radius:10px;
+        display: grid;
+        grid-template-columns:1fr ;
+        background-color: rgba(114, 122, 122, 0.5);
+        }
+        
+        
+        footer {
+            font-size: xx-small;
+            bottom:0;
+            right: 0;
+            color: white;
+            margin-bottom: 1rem;
+        }
+}

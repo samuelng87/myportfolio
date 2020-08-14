@@ -90,7 +90,7 @@ width: 100%;
 }
 
 .fire {
-margin-right: 18rem;
+margin-right: 10rem;
   }
 
   .money {
@@ -115,8 +115,6 @@ margin-right: 18rem;
     width: 100%;
     justify-content: center;
     line-height:0;
-  
-    
   }
   
   .coverpagewords2 {
@@ -186,8 +184,12 @@ table {
     font-weight: 900;
   }
   
+  .story p {
+    margin-bottom:0.5rem;
+  }
+
   .story {
-    line-height:1.8;
+    line-height:1.4;
     text-align:left;
     font-size: medium;
     height:300px;
@@ -205,8 +207,8 @@ table {
   }
 
       /** Image, table  & words in link2**/ 
-      .image-in-words {
-        width: 500px;
+      .story img {
+        width: 60%;
         }
 
 .link2-photo {
@@ -216,14 +218,15 @@ table {
       height: 200px;
       overflow: auto;
       border-radius: 10px;
+      background-color: whitesmoke;
 }
 
 .link2-photo:hover {
   height: 560px;
-  transition:5s;
+  transition:2s;
   position: absolute;
   width:50%;
-  background-color: whitesmoke;
+  background-color: grey;
 }
 
 
@@ -276,11 +279,6 @@ table {
     overflow: auto;
     border-radius: 10px;
 }
-
-.timeline-table:hover {
-    height: 300px;
-    transition:3s;
-  }
 
   .cosmo-table {
     border-top: 15px solid rgba(147, 116, 231, 0.2);
@@ -427,9 +425,13 @@ table {
         min-width:100%;
         flex-direction:row;
       border:none;
+      height: 50px;
     }
 
-  
+    #sidebar:hover {
+      height: 100px;
+      transition: 1s;
+    }
 
     .nav-link {
         
@@ -458,9 +460,29 @@ table {
     }
 
     #link2 {
-margin-top: 8rem;
+margin-top: 4rem;
 width:85%;
 }
+
+.link2-photo {
+  text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 200px;
+    overflow: auto;
+    border-radius: 10px;
+    background-color:whitesmoke;
+}
+
+.link2-photo:hover {
+height: 250px;
+transition:1s;
+position: unset;
+width:100%;
+background-color:grey;
+
+}
+
 
 h4 {
   font-size:xx-small ;
@@ -476,14 +498,27 @@ margin-top: 3rem;
 
 
 .story {
+  border: 1px solid grey;
   line-height:1.2;
   text-align:left;
   font-size: small;
   height:300px;
   overflow-x: auto;
   margin: 10px auto;  
-  width:100%;
+  width:92%;
+  padding: 10px;
 } 
+
+.story:hover {
+  background-color:whitesmoke;
+  transition:2s;
+  border: 5px solid goldenrod;
+  margin: 10px auto;  
+  padding: 10px;
+  width:92%;
+}
+
+
 
 .story p {
 margin:1rem auto;
@@ -540,16 +575,7 @@ margin:1rem auto;
       grid-gap: 3rem;
       }
 
-      .link2-photo:hover {
-        height: 285px;
-        transition:3s;
-        position: absolute;
-        width:95%;
-        background-color: whitesmoke;
-        left:10px;
-        
-      }
-
+   
 
 }
 
