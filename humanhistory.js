@@ -28,3 +28,11 @@ setTimeout("changeImg()", time);
 
 window.onload = changeImg; 
 
+
+function printNumber (num) {
+    return num;
+}
+
+
+printNumber((2020,2021))
+
