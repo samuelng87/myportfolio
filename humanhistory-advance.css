@@ -3,6 +3,31 @@
     padding: 0;
   }
 
+
+#myBtn {
+  font-family: 'Times New Roman', Times, serif;
+  transform: rotate(90deg);
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background-color:darkgray;
+  color: honeydew;
+  cursor: pointer;
+  padding: 0px 10px;
+  border-radius:50% ;
+  border: 5px solid honeydew;
+}
+
+#myBtn:hover {
+  transition: 1s;
+  background-color: #555;
+}
+
 .option {
   height:23rem;
   overflow-x:scroll;
@@ -32,11 +57,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
   font-style: none;
   color: transparent;
 }
-  .option img {
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-  }
+
 
   .item1 {
     height: 10rem;
@@ -229,7 +250,7 @@ background-size: cover;
         rgba(245, 245, 245, 0),
         rgba(245, 245, 233,0)
       ),
-url(substanability-pic.webp);
+url(substanability-pic.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -663,7 +684,7 @@ url(dna-pic\ .jpg);
         rgba(41, 136, 206, 0)
       ),
       
-  url(substanability-pic.webp);
+  url(substanability-pic.jpg);
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -730,6 +751,14 @@ footer {
   margin-top: 1rem;
 }
 
+
+@media (max-width:812px) {
+
+  .option {
+    height:13rem;
+
+  }
+}
 
 @media (max-width:500px) {
 
@@ -880,10 +909,13 @@ footer {
         
         
         footer {
-            font-size: xx-small;
+            font-size: 10px;
             bottom:0;
             right: 0;
             color: white;
             margin-bottom: 1rem;
+            padding:0rem 2rem ;
+            text-align: center;
         }
-}
+
+      }
