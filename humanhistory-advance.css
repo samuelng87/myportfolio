@@ -49,14 +49,16 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
   color: whitesmoke;
   text-decoration: none;
   font-style: none;
+  color:transparent;
 }
 
 .option a:hover {
-  transition: 3s;
+  transition: 1s;
   text-decoration: none;
   font-style: none;
-  color: transparent;
+  color:honeydew;
 }
+
 
 
   .item1 {
